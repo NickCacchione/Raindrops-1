@@ -1,9 +1,9 @@
 class Catcher {
   float d;
-  PVector loc;
-  PImage kid;
-  PImage happykid;
-  boolean caught;
+  PVector loc;                                              //PVector for the location of the catcher
+  PImage kid;                                               //one image for the catcher
+  PImage happykid;                                          //the second image for the catcher
+  boolean caught;                                           //value used to make the image change whether or not the raindrop is caught
 
   Catcher() {                                              
     loc = new PVector (width/2, height*.75);                //set the location for the catcher

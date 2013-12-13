@@ -1,8 +1,8 @@
-int oldTime = 0;
-int index = 1;
-Raindrops [] drops = new Raindrops [100];
-Catcher catcher1;
-int score;
+int oldTime = 0;                               //value used to make timer
+int index = 1;                                 //vairable used in the array
+Raindrops [] drops = new Raindrops [100];      //set array
+Catcher catcher1;                              //declare catcher
+int score;                                     //variable to work more easily with the score
 int textsize;
 PImage background;
 int t =3000;

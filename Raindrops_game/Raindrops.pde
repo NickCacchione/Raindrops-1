@@ -3,8 +3,8 @@ class Raindrops {
   PVector vel;                                     //PVector for the velocity of the raindrop
   PVector acc;                                     //PVector for the acceleratin of the raindrop
   float d;
-  PImage raindrop;
-  boolean active;
+  PImage raindrop;                                 //image for the raindrop
+  boolean active;                                  //boolean to set the raindrop as active or inactive, similar to an on/off switch
 
 
   Raindrops() {                                         
