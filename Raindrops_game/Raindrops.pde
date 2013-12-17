@@ -19,7 +19,7 @@ class Raindrops {
   void displayImage () {
     fill(0, 0, 255);                                 
     imageMode(CENTER);
-    image(raindrop, loc.x, loc.y, d, d);          //creating a method to display the raindrop  
+    image(raindrop, loc.x, loc.y, d, d);          //creating a method to display the raindrop
   }
 
   void display() {                                //method for a circle to fall instead of a raindrop image
@@ -48,6 +48,12 @@ class Raindrops {
       if (loc.y >= height) {                     //if the location of the raindrop is greater than or equal to the height
         c1.caught = false;                       //the caught method is false
         active = false;                          //the raindrop is inactive
+        lives--;
+        if(lives == 0 ){
+         gameover = true;
+         start = false;
+  
+        }
       }
     }
   }
