@@ -12,7 +12,7 @@ int recty;
 int rectd = 250;
 PImage storm;
 PImage arrow;
-int lives = 1;
+int lives = 10;
 boolean gameover;
 PImage skull;
 
